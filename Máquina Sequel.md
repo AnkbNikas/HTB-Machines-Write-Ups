@@ -34,3 +34,5 @@ show tables;
 select * from config;
 
 ![Screenshot 2024-11-10 162352](https://github.com/user-attachments/assets/a629f03c-df4c-4d58-8e00-5c5de5a3ed39)
+
+y conseguimos el flag
