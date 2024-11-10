@@ -90,7 +90,7 @@ si accedemos a ese archivo mientras tenemos Netcat escuchando en el puerto espec
 
 nc -nlvp 443
 
-![Screenshot 2024-11-10 190648](https://github.com/user-attachments/assets/f8619f43-a6fd-4f15-a4b2-8295899b8c2d)
+![Screenshot 2024-11-10 192106](https://github.com/user-attachments/assets/314431cf-41eb-4782-9190-ec0491abbd6f)
 
 Luego, accedemos a http://thetoppers.htb/shell.php.4
 
