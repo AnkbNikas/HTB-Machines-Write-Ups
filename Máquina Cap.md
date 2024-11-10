@@ -1,7 +1,5 @@
 Maquina: Cap
 
-Autor: 
-
 Dificultad: Facil
 
 ![Screenshot 2024-11-10 111524](https://github.com/user-attachments/assets/cf2ef35d-5faa-437e-a508-947c1639c15d)
