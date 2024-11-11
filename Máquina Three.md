@@ -98,7 +98,7 @@ Luego, accedemos a http://thetoppers.htb/shell.php.4
 
 ![Screenshot 2024-11-10 191410](https://github.com/user-attachments/assets/d7130117-25c3-40a2-b92a-c56ac2498fed)
 
-Encontrados el flag en /var/www/flag.txt
+Encontramos el flag en /var/www/flag.txt
 
 ![Screenshot 2024-11-10 191420](https://github.com/user-attachments/assets/4936b202-8280-42ac-9e6c-7e36030eba59)
 
