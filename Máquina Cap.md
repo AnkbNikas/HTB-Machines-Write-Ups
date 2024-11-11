@@ -72,7 +72,7 @@ intentamos entrar por ftp
 
 dir
 
-vemos que nathan tiene hdirectorio home, eso significa que podemos hacer loging por ssh tambien
+vemos que nathan tiene directorio home, eso significa que podemos hacer loging por ssh tambien
 
 ssh nathan@10.129.140.249
 Buck3tH4TF0RM3!
