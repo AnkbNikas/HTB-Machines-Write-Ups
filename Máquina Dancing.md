@@ -30,10 +30,10 @@ smbclient \\\\10.129.67.110\\WorkShares
 
 Nos hemos conectado al servicio SMB y no ha requerido ninguna contraseña
 
-![Screenshot 2024-11-10 152120](https://github.com/user-attachments/assets/12187e7a-796f-4007-875b-7dbea73b8f41)
-
 encontramos dos directorios
 
 entramos en los dos y cogemos el worknotes.txt y el flag.txt
+
+![Screenshot 2024-11-10 152120](https://github.com/user-attachments/assets/12187e7a-796f-4007-875b-7dbea73b8f41)
 
 ![Screenshot 2024-11-10 152204](https://github.com/user-attachments/assets/5c6095f2-d0a3-4b1c-85c1-f8ee6a038d98)
