@@ -53,15 +53,16 @@ Este servicio puede usarse para guardar diversos tipos de información,
 como copias de seguridad, archivos multimedia, páginas web estáticas, entre otros.
 
 Lo instalamos y lo configuramos
+
 sudo apt install awscli
+
 aws configure
 
 ![Screenshot 2024-11-10 185345](https://github.com/user-attachments/assets/9fc58951-8855-4757-a247-942a6d4d955e)
 
 ![Screenshot 2024-11-10 185622](https://github.com/user-attachments/assets/8729ed6c-509d-4e4b-847c-4ca8c24ccf0c)
 
-Esto nos muestra dos elementos de interés y una carpeta llamada "images". Además, 
-disponemos de un servicio que nos permite descargar estos archivos de forma remota a nuestro entorno.
+Esto nos muestra dos elementos de interés y una carpeta llamada "images". Además, disponemos de un servicio que nos permite descargar estos archivos de forma remota a nuestro entorno.
 
 aws s3 --endpoint=http://s3.thetoppers.htb ls s3://thetoppers.htb
 
@@ -70,6 +71,7 @@ aws s3 --endpoint=http://s3.thetoppers.htb ls s3://thetoppers.htb
 Si no hay una configuración que exija autorización para subir archivos, podemos intentar cargar una Reverse Shell. 
 Sabemos que el servidor está ejecutando archivos con extensión PHP, por lo que ya sabemos cómo generar una. 
 Para este propósito, suelo recurrir a la Reverse Shell en PHP disponible en pentestmonkey. 
+
 Puedes encontrar el script aquí: 
 
 https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
