@@ -69,6 +69,7 @@ aplicamos el filtro para ver solo ftp requests y encontramos un username y un pa
 entramos por ssh
 
 ssh nathan@10.129.140.249
+
 Buck3tH4TF0RM3!
 
 ![Screenshot 2024-11-10 122707](https://github.com/user-attachments/assets/f4794c4b-12e9-4852-ad31-e2f60ad95829)
