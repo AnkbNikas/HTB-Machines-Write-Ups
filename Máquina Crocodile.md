@@ -34,9 +34,9 @@ cogemos las credenciales encontradas
 
 buscamos directorios con Gobuster
 
-![Screenshot 2024-11-10 164434](https://github.com/user-attachments/assets/7aa4e0a9-ab7f-45d0-b676-d596c3fdd1f1)
-
 gobuster dir -u http://10.129.67.140/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -x .php
+
+![Screenshot 2024-11-10 164434](https://github.com/user-attachments/assets/7aa4e0a9-ab7f-45d0-b676-d596c3fdd1f1)
 
 hacemos loging con las credenciales encontradas
 admin:rKXM59ESxesUFHAd
