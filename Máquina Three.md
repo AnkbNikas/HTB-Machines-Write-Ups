@@ -66,7 +66,7 @@ Esto nos muestra dos elementos de interés y una carpeta llamada "images". Adem�
 
 aws s3 --endpoint=http://s3.thetoppers.htb ls s3://thetoppers.htb
 
-![Screenshot 2024-11-10 185650](https://github.com/user-attachments/assets/dad4e118-a322-471f-a4e9-f90231ac9d43)
+![image](https://github.com/user-attachments/assets/25d57d12-92f2-470f-aa49-c5b43eb8bb5b)
 
 Si no hay una configuración que exija autorización para subir archivos, podemos intentar cargar una Reverse Shell. 
 Sabemos que el servidor está ejecutando archivos con extensión PHP, por lo que ya sabemos cómo generar una. 
