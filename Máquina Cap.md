@@ -66,13 +66,7 @@ aplicamos el filtro para ver solo ftp requests y encontramos un username y un pa
 
 ![Screenshot 2024-11-10 122357](https://github.com/user-attachments/assets/72d8d056-bce5-4838-879e-a63f31924ce4)
 
-intentamos entrar por ftp
-
-![Screenshot 2024-11-10 122533](https://github.com/user-attachments/assets/04c5f6d0-de58-4e2f-b284-3964d1232374)
-
-dir
-
-vemos que nathan tiene directorio home, eso significa que podemos hacer loging por ssh tambien
+entramos por ssh
 
 ssh nathan@10.129.140.249
 Buck3tH4TF0RM3!
