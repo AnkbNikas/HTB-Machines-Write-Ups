@@ -24,6 +24,7 @@ indicado como pando-pub
 ![Screenshot 2024-11-10 170149](https://github.com/user-attachments/assets/f93fb876-05d3-4d1d-88ea-43548cc47156)
 
 añadimos la ip a /etc/hosts
+
 echo 10.129.37.91 unika.htb | sudo tee -a /etc/hosts
 
 ![Screenshot 2024-11-10 170537](https://github.com/user-attachments/assets/af12c8f1-9568-4694-b3ad-471bd8b054dc)
