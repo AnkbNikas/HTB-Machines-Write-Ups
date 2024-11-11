@@ -27,6 +27,7 @@ show databases;
 ![Screenshot 2024-11-10 162235](https://github.com/user-attachments/assets/ff3698b7-5300-4c63-acad-fd934dd4d615)
 
 use htb;
+
 show tables;
 
 ![Screenshot 2024-11-10 162516](https://github.com/user-attachments/assets/d13278bd-931b-4f94-945d-000b8ab62c9a)
