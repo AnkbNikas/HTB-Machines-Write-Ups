@@ -17,9 +17,7 @@ realizamos un escaneo de puertos y servicios
 sudo nmap -sVC -T4 -PN -p- 10.129.37.91
 
 el puerto 80 está abierto y está sirviendo HTTP con Apache httpd 2.4.52 (Win64) junto con OpenSSL/1.1.1m y 
-PHP/8.1.1., el puerto 5985 está abierto y está sirviendo HTTP con Microsoft HTTPAPI httpd 2.0 
-(utilizado por SSDP/UPnP), el puerto 7680 está abierto, pero no se identifica claramente el servicio asociado, 
-indicado como pando-pub
+PHP/8.1.1., el puerto 5985 está abierto y está sirviendo HTTP con Microsoft HTTPAPI httpd 2.0 (utilizado por SSDP/UPnP), el puerto 7680 está abierto, el servicio asociado pando-pub
 
 ![Screenshot 2024-11-10 170149](https://github.com/user-attachments/assets/f93fb876-05d3-4d1d-88ea-43548cc47156)
 
