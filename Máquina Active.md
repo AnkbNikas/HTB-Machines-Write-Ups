@@ -83,14 +83,23 @@ Accedemos con impacket con los credenciales obtenidos
 Vamos buscando hasta encontrar el root.txt
 
 whoami
+
 cd..
+
 cd..
+
 dir
+
 cd Users
+
 dir
+
 cd Administrator
+
 dir
+
 cd Desktop
+
 type root.txt
 
 ![Screenshot 2024-11-16 083311](https://github.com/user-attachments/assets/105168de-56c4-4475-ab43-86c73320a06b)
