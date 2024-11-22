@@ -62,11 +62,11 @@ chmod +x suid.sh
 
 Ejecutamos el script 
 
-bash suid.sh & ./exploit.sh
+bash suid.sh  
+
+./exploit.sh
 
 ls
-
-id
 
 cat root.txt
 
