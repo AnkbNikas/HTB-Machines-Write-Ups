@@ -1,4 +1,4 @@
-aquina: Active
+Maquina: Active
 
 Autor:
 
